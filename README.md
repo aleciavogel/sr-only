@@ -1,5 +1,5 @@
 # sr-only
-A website written by an angry web developer, only accessible by - you guessed it - a screenreader.
+A website written by an angry web developer. Only accessible by - you guessed it - a screenreader.
 
 ### Contributions
 
