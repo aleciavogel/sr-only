@@ -25,60 +25,21 @@
     main a:visited,
     main a:focus,
     main a:active {
-      color: white;
+      color: transparent;
     }
 
     /* Moving your mouse around to try and find something is futile */
-    main a,
-    main p,
-    main h1,
-    main h2,
-    main h3,
-    main h4,
-    main h5,
-    main h6,
-    main ul,
-    main li,
-    main {
+    main * {
       cursor: default;
+      pointer-events: none;
     }
 
     /* Make it so that highlighting the page also doesn't do anything */
-    main p::moz-selection {
-      background: white;
+    main *::moz-selection {
+      background: transparent;
     }
-    main p::selection {
-      background: white;
-    }
-    main h1::moz-selection {
-      background: white;
-    }
-    main h1::selection {
-      background: white;
-    }
-    main h2::moz-selection {
-      background: white;
-    }
-    main h2::selection {
-      background: white;
-    }
-    main a::moz-selection {
-      background: white;
-    }
-    main a::selection {
-      background: white;
-    }
-    main ul li::moz-selection {
-      background: white;
-    }
-    main ul li::selection {
-      background: white;
-    }
-    main em::moz-selection {
-      background: white;
-    }
-    main em::selection {
-      background: white;
+    main *::selection {
+      background: transparent;
     }
   </style>
 </head>
